@@ -1,0 +1,70 @@
+.button-toogle
+{
+    background-color: chocolate;
+    float: right;
+    margin: 70px;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+.close-button
+{
+    background-color:white;
+    border-radius: 10px;
+    color: red;
+}
+.sideBar
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background: var(--clr-white);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 1rem;
+    box-shadow: var(--clr-red-dark);
+    transition: var(--transition);
+    transform: translate(-100%);
+}
+.show-sideBar{
+    transform: translate(0);
+}
+@media screen and (min-width: 676px){
+    .sideBar{
+        width: 400px;
+    }
+    
+} 
+.first
+{
+    background-color: antiquewhite;
+    padding: 70px;
+}
+.first-1
+{
+    padding: 20px;
+    color: black;
+}
+.first-2
+{
+    padding: 20px;
+    color: black;
+}
+.first-3
+{
+    padding: 20px;
+    color: black;
+}
+.first-4
+{
+    padding: 20px;
+    color: black;
+}
+body
+{
+    background-color: azure;
+}
+
